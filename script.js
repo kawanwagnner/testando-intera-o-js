@@ -6,5 +6,5 @@ btn.addEventListener('click', () => {
     const substituicao = document.querySelector('.substituicao')
     const Client = String(nomeCliente.value)
     
-    substituicao.innerHTML = Client
+    substituicao.innerHTML = Client + '!'
 });
